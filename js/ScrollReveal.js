@@ -7,4 +7,9 @@ window.sr = ScrollReveal({
 });
 
 // itens
+window.sr = ('.logo-in-header',{ 
+    delay: 300,
+    origin: 'left',
+    duration: 1000,
+});
 
