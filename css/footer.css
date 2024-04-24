@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+footer{
+    background-color: rgb(248, 7, 7);
+    text-align: center;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    position: absolute;
+    position: bottom;
+    height: 200px;
+}
+
+.carlos-links{
+    color: aqua;
+}

@@ -13,3 +13,12 @@ window.sr = ('.logo-in-header',{
     duration: 1000,
 });
 
+window.sr = ('video-days.',{ 
+    delay: 300,
+    origin: 'left',
+    duration: 1000,
+});
+
+
+
+
