@@ -6,6 +6,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 70px;
+    margin-top: 70px;
     width: 300px;
     background-color: #000000e5;;
     text-align: center;
@@ -14,6 +15,10 @@
     gap: 5px;
     border-bottom: 1px solid white;
 
+}
+.cout-out{
+    padding: 20px;
+    text-align: center;
 }
 
 
@@ -26,7 +31,7 @@
         padding: 0px;
         margin-left: auto;
         margin-right: auto;
-        background-color: #424242;
+        background-color: #000000;
         height: 120px;
         width: 500px;
         text-align: center;

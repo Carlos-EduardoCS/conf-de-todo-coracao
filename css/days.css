@@ -5,3 +5,14 @@
 .video-container{
     padding: 20px;
 }
+
+@media (min-width: 768px) and (orientation: landscape){
+    .video-container > video{
+        width: 400px;
+    }
+
+    .days{
+        height: 100vh;
+    }
+    
+}

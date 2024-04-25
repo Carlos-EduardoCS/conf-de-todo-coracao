@@ -8,3 +8,10 @@ body{
 .introduction-404{
     margin: 80px auto;
 }
+
+@media (min-width: 768px) and (orientation: landscape){
+    .introduction-404{
+        margin:  auto;
+    }
+    
+}

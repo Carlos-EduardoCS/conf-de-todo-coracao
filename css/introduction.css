@@ -2,7 +2,16 @@
 
 .introduction{
     background-image: url(../gifs/teste1.gif);
-    height: 90vh;
+    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+@media (min-width: 768px) and (orientation: landscape){
+    .introduction{
+        background-image: url(../gifs/desktop/wpp-principal.gif);
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 }

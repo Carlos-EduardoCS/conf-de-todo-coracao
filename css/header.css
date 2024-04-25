@@ -127,3 +127,51 @@ ul > a:hover{
     cursor: pointer;
     gap: .7rem;
 }
+
+@media (min-width: 768px) and (orientation: landscape) {
+
+
+    #header,.hamburger, .logo-jni{
+        display: none;
+    }
+
+    #nav-desktop, #menu{
+        display: block;
+    }
+
+    #header-pc{
+        display: flex;
+        position: fixed;
+        justify-content: space-around;
+        gap: 5px;
+        background: rgb(0, 0, 0);
+        width: 100vw;
+        height: 100px;
+        padding: 5px;
+        line-height: 90px;
+        z-index: 1;
+    }
+
+    .ul-desktop{
+        display: flex;
+        justify-content: space-around;
+        gap: 30px;
+        list-style: none;
+    
+    }
+
+    .ul-desktop > a{
+        border-bottom: none;
+    }
+
+    .ul-desktop > a:hover{
+        font-size: 16.4px;
+        border-bottom: rgb(68, 68, 68) 2px solid;
+    }
+
+    .logo-jni-pc{
+        line-height: 50px;
+        width: 100px;
+    }
+
+}
