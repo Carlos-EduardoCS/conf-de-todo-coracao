@@ -3,7 +3,7 @@
 }
 
 .video-container{
-    padding: 20px;
+    padding: 50px;
 }
 
 @media (min-width: 768px) and (orientation: landscape){
