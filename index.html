@@ -1,11 +1,96 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> CONF - 20024 | DE TODO CORAÇÃO </title>
-</head>
-<body>
-    
-</body>
-</html>
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--  CSS'S  -->
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/introduction.css ">
+        <link rel="stylesheet" href="css/coutdown.css">
+        <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/days.css">
+
+
+
+
+
+        <title> CONF - 20024 | DE TODO CORAÇÃO </title>
+    </head>
+    <body>
+        
+        <header id="header">
+            <img class="logo-jni" src="images/brand-jni.png" alt="Brand jni">
+
+            <nav id="nav">
+                <button id="btn-mobile" aria-label="Abrir Menu" aria-haspopup="tru" aria-controls="menu" aria-expanded="">
+                <span class="hamburger"></span>
+                </button>
+                <ul id="menu" role="menu">
+                    <a href="pages/404.html">
+                        <li>Saiba Mais </li>
+                    </a>
+
+                    <a href="pages/404.html">
+                        <li> Line Up  </li>
+                    </a>
+
+                    <a href="pages/404.html">
+                        <li> Loja </li>
+                    </a>
+                    <a href="pages/404.html">
+                        <li> Inscrição </li>
+                    </a>
+                </ul>
+            </nav>
+        </header>
+
+
+
+
+
+        <section class="introduction"> 
+                
+        </section>
+        <section class="days">
+
+            <div class="video-container">
+                <video src="videos/dias[finalizado] (1).mp4" muted loop controls autoplay width="75%" style="display: block; margin: 0 auto ; border-radius: 10px;"></video>
+            </div>
+
+        
+
+       
+            <div class="cout-out" style="background-color: black;">
+                <div class="count-container" style="">
+                    <div class="countdown-el-days">
+                        <p class="text-cout" id="days">0</p>
+                        <span> Dias </span>
+                    </div>
+                    <div class="countdown-el-hours">
+                        <p class="text-cout" id="hours">0</p>
+                        <span> Horas </span>
+                    </div>
+                    <div class="countdown-el-mins ">
+                        <p class="text-cout" id="mins">0</p>
+                        <span> Minutos </span>
+                    </div>
+                    <div class="countdown-el-days">
+                        <p class="text-cout" id="segs">0</p>
+                        <span> Segundos </span>
+                </div>
+            </div>
+
+       
+        </section>   
+        <footer>
+            <h1>
+                Desenvolvido e projetado por: <br> <a href=""> Carlos Eduardo &copy; </a>
+            </h1>
+        </footer>
+    </body>
+
+    <script src="js/CountDown.js"></script>
+    <script src="js/Header.js"></script>
+    <script src="js/ScrollReveal.js"></script>
+    </html>

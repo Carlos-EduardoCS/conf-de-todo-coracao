@@ -1,0 +1,129 @@
+#header-pc, .pc-nav{
+    display: none
+}
+
+ul > a {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.048);
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+ul > a:hover{
+    font-size: 17px;
+    transition: .5s;
+}
+
+#header{
+    box-sizing: border-box;
+    height: 80px;
+    padding: 1rem;
+    display: flex;
+    width: 100%;
+    gap: 100px;     
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255)    ;
+}
+
+.logo-jni{
+    margin-top: 3px;
+    width: 95px;
+    animation: in-fade 3s ease-in-out ;
+}
+
+#menu{
+    display: flex;
+    list-style: none;
+    gap: .5rem;
+}
+
+#menu a {
+    display: block;
+    padding: .5rem;
+}
+
+#btn-mobile{
+    display:flex;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    background: none;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    gap: .5rem;
+}
+
+.hamburger{
+    color: rgb(255, 255, 255);
+    width: 20px;
+    border-top: 2px solid;
+}
+
+/* BTN CONFIGS IN ANOTHER CELL PHONES  */
+
+
+.hamburger::after, .hamburger::before{
+    display: block;
+    content: '';
+    width: 20px;
+    height: 2px;
+    margin-top: 7px;
+    background: currentColor;
+    transition: .4s;
+    position: relative;
+}
+
+#nav.active .hamburger{
+    transition: .2s;
+    border-top-color: transparent;
+
+}
+
+#nav.active .hamburger::before{
+    transition: .5s;
+    transform: rotate(135deg);
+
+}
+
+#nav.active .hamburger::after{
+    transition: .5s;
+    transform: rotate(-135deg);
+    top: -9px;
+    
+}
+
+#menu{
+    text-align: right;
+    display:block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 80px;
+    right: 0px;
+    padding-bottom: 10px;
+    height: 0px;
+    background: rgb(0, 0, 0);
+    visibility: hidden;
+    overflow-y: hidden;
+    transition: .8s;
+}
+
+#nav.active #menu{
+    position: absolute;
+    height: 27vh;
+    visibility: visible;
+
+}
+
+#btn-mobile{
+    display:flex;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    background: none;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    gap: .7rem;
+}

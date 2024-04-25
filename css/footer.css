@@ -1,14 +1,31 @@
 @charset "UTF-8";
 
 footer{
-    background-color: rgb(248, 7, 7);
+    background-color: rgb(0, 0, 0);
     text-align: center;
     color: white;
     padding: 20px;
     width: 100%;
     position: absolute;
     position: bottom;
-    height: 200px;
+    height: 100px;
+}
+
+footer > h1{
+    font-size:  12px;
+}
+
+footer > h1 > a{
+    text-decoration: none;
+    color: rgba(255, 0, 0, 0.541);
+}
+
+footer > h1 > a:hover{
+    cursor: pointer;
+    transition: .10s ease-in-out;
+    font-size:  12.7px;
+    text-decoration: underline;
+    color: rgba(204, 0, 0, 0.541);
 }
 
 .carlos-links{

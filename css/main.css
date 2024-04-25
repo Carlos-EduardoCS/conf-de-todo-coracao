@@ -11,3 +11,13 @@
     font-family: Poppins;
     scroll-behavior: smooth;
 }
+
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+
+a:hover{
+    cursor: pointer;
+}

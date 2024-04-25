@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+
 body{
     background-color: white;
+}
+
+.introduction-404{
+    margin: 80px auto;
 }
